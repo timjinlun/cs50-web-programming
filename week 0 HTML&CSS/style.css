@@ -1,0 +1,154 @@
+.navbar{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navitem{
+    margin: 10px;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: small;
+  }
+  
+a:visited {
+    color: rgb(213, 211, 211);
+  }
+  
+a:hover {
+    text-decoration:underline;
+  }
+  
+a:active {
+    color: rgb(0, 0, 0);
+  }
+
+.center-icon{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+    align-items: center;
+}
+.search-bar{
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #202124;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 584px;
+    max-width: 584px;
+    text-align: left;
+    text-indent: 10px;
+    
+}
+
+.search-btn{
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: Roboto,arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.center-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+}
+
+.darkimg{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #4487f6;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: absolute;
+    left: 760px;
+    bottom: 535px;
+
+}
+
+.adv-search{
+    color: #f28b82;
+    font-size: 20px;
+    margin: 35px;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+.line{
+    border-bottom: 1px solid #ebebeb;
+    border-color: #3c4043;
+}
+
+.find-page{
+    color: #e8eaed;
+    font-size: 15px;
+    vertical-align: baseline;
+    text-decoration: none;
+
+    
+}
+
+.div-adv{
+    margin: 30px;
+}
+
+.search-form{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-size: small;
+    font-weight: 100;
+}
+
+.left-bar{
+    width: 180px;
+
+}
+.right-item{
+    width: 600px;
+    height: 20px;
+}
+.advanced-btn{
+    text-align: right;
+
+}
+#advanced-item{
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    float: right;
+    margin: 10px 0;
+    height: 30px;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.advanced-btn{
+    display: flex;
+    justify-content:flex-end;
+    width: 786px;
+}
